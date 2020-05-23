@@ -2,7 +2,10 @@ package com.company.unitTest;
 
 import com.company.Solution112;
 import com.company.TreeNode;
+<<<<<<< HEAD
 import com.huawei.Solution;
+=======
+>>>>>>> add project
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -10,7 +13,10 @@ import java.util.Arrays;
 import java.util.List;
 
 import static com.company.Main.initBinTree;
+<<<<<<< HEAD
 import static org.junit.Assert.*;
+=======
+>>>>>>> add project
 
 public class Solution112Test {
     Solution112 solution112 = new Solution112();

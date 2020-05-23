@@ -3,7 +3,6 @@ package com.company.unitTest;
 import com.company.Solution112;
 import com.company.TreeNode;
 <<<<<<< HEAD
-import com.huawei.Solution;
 =======
 >>>>>>> add project
 import org.junit.Assert;
@@ -14,7 +13,6 @@ import java.util.List;
 
 import static com.company.Main.initBinTree;
 <<<<<<< HEAD
-import static org.junit.Assert.*;
 =======
 >>>>>>> add project
 

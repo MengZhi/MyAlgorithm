@@ -1,4 +1,4 @@
-package com.huawei;
+package com.testingpackage;
 
 public interface Solution {
     public void getResult();

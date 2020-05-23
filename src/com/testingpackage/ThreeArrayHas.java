@@ -1,4 +1,4 @@
-package com.huawei;
+package com.testingpackage;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.Arrays;
 
-public class Solution34 {
+public class Solution34BinarySearch {
 
     public static int[] searchRange(int[] nums, int target) {
         int left = leftBound2(nums, target);

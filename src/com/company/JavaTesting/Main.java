@@ -2,9 +2,11 @@ package com.company.JavaTesting;
 
 public class Main {
     public static void main(String[] args) {
-        Dog dog = new Dog();
-        Dog cat = new Cat();
-        dog.print();
-        cat.print();
+//        Animal animal = new Animal();
+//        Animal cat = new Cat();
+//        animal.print();
+//        cat.print();
+
+
     }
 }

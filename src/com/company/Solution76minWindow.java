@@ -5,8 +5,7 @@ public class Solution76minWindow {
         int maxLen = 0;
         int start = 0;
         int end = start+1;
-
-
+        return "";
     }
 
 }

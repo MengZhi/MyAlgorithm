@@ -2,6 +2,7 @@ package com.company;
 
 import javafx.util.Pair;
 import java.util.*;
+import java.util.regex.Pattern;
 
 
 public class Main {
@@ -18,11 +19,41 @@ public class Main {
         //int[] T = {1,2,1};
         //System.out.println(movesToMakeZigzag(T));
         //binaryTreePaths(root);
-        String input = "Date: tY-%1tm-te";
-        Calendar calendar = new GregorianCalendar(1995, GregorianCalendar.MAY, 23);
-        System.out.printf("%s did not match, " +" HINT: it was issued on %2$terd of some month", input, calendar);
+//        String input = "Date: tY-%1tm-te";
+//        Calendar calendar = new GregorianCalendar(1995, GregorianCalendar.MAY, 23);
+//        System.out.printf("%s did not match, " +" HINT: it was issued on %2$terd of some month", input, calendar);
+//
+//        System.out.printf(input + " did not match, " +" HINT: it was issued on %1$terd of some month", calendar);
 
-        System.out.printf(input + " did not match, " +" HINT: it was issued on %1$terd of some month", calendar);
+        test3();
+
+    }
+
+    public static void test3() {
+
+        System.out.println(new Long(3) == new Integer(1) + new Integer(2)); //t
+        System.out.println(new Long(3).equals(new Integer(3)));
+        System.out.println(new Long(3).equals(new Integer(1) + new Integer(2))); //f
+    }
+
+    public static void test2() {
+        String t1 = "abc";
+        String t2 = new String("abc");
+        System.out.println(t1 == t2); //f
+        System.out.println(t1.equals(t2)); //t
+        System.out.println(t1 == t2.intern()); //t
+        System.out.println(t1 == "abc"); // t
+        System.out.println(t2 == "abc"); //f
+    }
+
+    public static void test1() {
+        String t1 = "123\\d";
+        String rt1 = t1.replaceAll("\\d", "456");
+        String rt2 = t1.replaceAll(Pattern.quote("\\d"), "456");
+        String rt3 = t1.replace("\\d", "456");
+        System.out.println(rt1);
+        System.out.println(rt2);
+        System.out.println(rt3);
     }
 
     public static TreeNode initBinTree(List<Integer> list) {

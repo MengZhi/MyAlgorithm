@@ -1,7 +1,13 @@
 package com.company.JavaTesting;
 
 public class Animal {
-    public static void print() {
-        System.out.println("this is Animal");
+//    int a =100;
+//
+//    public int fun() {
+//        return 10;
+//    }
+
+    public Animal(int i) {
+        System.out.println("this is Animal: " + i);
     }
 }
